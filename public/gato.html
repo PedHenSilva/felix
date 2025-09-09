@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+</head>
+<body style="background-color: rgb(15, 76, 92);">
+
+    <style>
+        .container {
+            margin: 325px;
+            margin-left: 525px;
+            margin-top: 90px;
+            border: 5px solid #d6a153;
+            padding-right: 50px;
+            padding-left: 50px;
+            padding-bottom: 15px;
+            width: 500px;
+            border-radius: 20px;
+            
+            background-color: #60636c;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .formatar {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            gap: 40px;
+        }
+
+        input {
+            width: 250px;
+            height: 30px;
+            border-radius: 20px;
+            text-align: center;
+            font-size: 22px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        
+        button {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            background-color: #60636c;
+            margin-top: 80px;
+            width: 120px;
+            height: 30px;
+            font-size: 18px;
+            padding-top: 2px;
+            font-family: fantasy;
+            color: #d6a153;
+        }
+
+    </style>
+    
+    <div class="container">
+        <h1 style="color: #d6a153; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 28px;">Cadastra-se e assista o Gato Félix!</h1>
+            <div class="formatar">
+                <img src="../img/felix2.jpg" alt="Snoopy" height="300px" style="border: 1px solid white; border-radius: 15px;">
+                    <div>
+                        <input type="text" id="Nome" placeholder="Insira seu nome" style="margin-top: 55px;">
+                        <input type="texto" id="E-mail" placeholder="Insira seu E-mail" style="margin-top: 45px;">
+                        <div style="display: flex; flex-direction: row; text-align: center;">
+                            <button type="button" style="margin-left: 5px;">Cadastrar</button>
+                            <button type="button">Apagar</button>
+                        </div>
+                    </div>
+                
+            </div>  
+    </div>  
+
+
+    
+</body>
+</html>
