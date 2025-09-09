@@ -3,6 +3,7 @@ Site de desenvolvimento de DW-I, Fatec Luigi Papaiz de Diadema - V1, 2025
 Prof. Bruno Zolotareff dos Santos
 
 Author: Pedro Henrique Oliveira Silva
+
 LinkedIN: (inserir link)
 
 ## Sobre:
